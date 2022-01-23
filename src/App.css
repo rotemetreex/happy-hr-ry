@@ -1,0 +1,98 @@
+* {
+  font-family: 'PT Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home, .services, .products, .contact-us, .sign-up, .marketing, .consulting {
+  display: flex;
+  height: 89.8vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3em;
+  letter-spacing: 5px;
+}
+
+.home {
+  background-image: url('./components/images/img-11.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 70px;
+
+}
+
+.services {
+  background-image: url('./components/images/img-14.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 70px;
+}
+
+.marketing {
+  background-image: url('./components/images/img-7.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 70px;
+}
+
+.products {
+  background-image: url('./components/images/img-8.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 70px;
+}
+
+.contact-us {
+  background-image: url('./components/images/img-4.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 70px;
+}
+
+.sign-up {
+  background-image: url('./components/images/img-9.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 70px;
+}
+
+.consulting {
+  background-image: url('./components/images/img-16.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 70px;
+}
+
+/* .drinkSearchResult {
+  background-color: rebeccapurple;
+} */
+
+.searchResult {
+  background-color: aquamarine;
+  width: 500px;
+  height: 300px;
+}
+
+
+
+
+
+
+
+
+

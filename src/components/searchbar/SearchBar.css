@@ -1,0 +1,110 @@
+.appContainer {
+    width: 40%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    margin-left: 35px;
+    margin-top: 10px;  
+  }
+  
+  .searchBarContainer {
+    display: flex;
+    flex-direction: column;
+    width: 34em;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 12px 3px rgba(0, 0, 0, 0.14);
+    z-index: 5;
+  }
+  
+  .searchInputContainer {
+    width: 100%;
+    height: 3em;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .line-seperator {
+    display: flex;
+    min-width: 100%;
+    min-height: 2px;
+    background-color: #d8d8d878;
+  }
+
+  .content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0.2em;
+    font-size: 26px;
+    overflow-y: auto;
+  }
+
+  .searchContent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0.2em;
+  }
+  
+  .loading-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .warningMessage {
+    color: #a1a1a1;
+    font-size: 18px;
+    display: flex;
+    margin-left: 60px;
+    margin-top: 30px;
+    width: 50%;
+  }
+  
+  img {
+    height: 36px;
+    width: 20px;
+  }
+  
+  .expanded {
+    height: 400px;
+    /* height: fit-content; */
+  }
+  
+  .collapsed {
+    height: 36px;
+  }
+
+
+  @media screen and (max-width: 960px) {
+    .appContainer {
+      width: 40%;
+      height: 50%;
+      display: flex;
+      justify-content: center;
+      margin-left: -50px;
+      margin-top: 16px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  

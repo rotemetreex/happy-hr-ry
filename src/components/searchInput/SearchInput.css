@@ -1,0 +1,59 @@
+.serachInput {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    font-size: 21px;
+    color: #12112e;
+    border-radius: 6px;
+    background-color: transparent;
+}
+
+.serachInput:focus {
+    outline: none;
+}
+.serachInput:focus::placeholder {
+    opacity: 0;
+}
+
+.serachInput::placeholder {
+    color: #bebebe;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all 250ms ease-in-out;
+}
+
+.searchIcon {
+    /* color: #bebebe; */
+    color: #dfdfdf;
+    font-size: 35px;
+    margin: 1px 10px 0 10px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.closeIcon {
+    margin-right: 14px;
+    color: #dfdfdf;
+    /* color: #bebebe; */
+    /* color: #33ccd1; */
+    font-size: 30px;
+    vertical-align: middle;
+    transition: all 250ms ease-in-out;
+    cursor: pointer;
+}
+
+/* .searchIcon svg, .closeIcon svg {
+    height: 1.5em;
+} */
+
+.closeIcon:hover, .searchIcon:hover {
+    color: #81d5d8;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+.sign-up {
+    display: flex;
+    height: 91.4vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+  }
+  
+.sign-up {
+    background-image: url('../components/images/img-5.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 70px;
+  }

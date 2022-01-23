@@ -1,0 +1,36 @@
+.searchResultContainerRow {
+    width: 100%;
+    height: 2em;
+    display: flex;
+    border-bottom: 1px solid #d8d8d852;
+    padding: 6px 8px;
+}
+
+.thumbnail {
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex: 0.3;
+}
+
+img {
+    width: 50px;
+    height: 100%;
+    border-radius: 50%;
+}
+
+span {
+    color: #d8d8d852;
+    font-size: 16px;
+    display: flex;
+    /* flex: 1; */
+    cursor: pointer;
+}
+
+h3 {
+    font-size: 14px;
+    color: black;
+    margin-left: 10px;
+    margin-top: 5px;
+    flex: 2;
+}
